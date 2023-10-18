@@ -13,7 +13,7 @@ public:
     }
 
     MyBigInteger(const std::string& hexString) {
-
+        this->setHex(hexString);
     }
 
     std::vector<uint32_t> getDigits() {
